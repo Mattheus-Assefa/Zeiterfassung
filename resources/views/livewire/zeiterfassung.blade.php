@@ -26,6 +26,9 @@
                 <thead class="bg-gray-100">
                     <tr>
                         @foreach ($columns as $column)
+                            @if ($column == 'Name')
+                                @continue
+                            @endif
                             <th
                                 class="px-4 py-3 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider">
                                 {{ ucfirst($column) }}
@@ -38,10 +41,13 @@
                         @if ($row->Name == $current_name)
                             <tr class="{{ $loop->even ? 'bg-gray-50' : 'bg-white' }} hover:bg-gray-100 transition">
                                 @foreach ($columns as $column)
-                                    <td class="px-4 py-3 text-sm text-gray-900 whitespace-nowrap">
-                                        {{ $row->$column }}
-                                    </td>
-                                @endforeach
+                                    @if ($row->$column == $current_name)
+                                        @continue
+                                    @endif
+                                        <td class="px-4 py-3 text-sm text-gray-900 whitespace-nowrap">
+                                            {{ $row->$column }}
+                                        </td>
+                                    @endforeach
                             </tr>
                         @endif
                     @endforeach

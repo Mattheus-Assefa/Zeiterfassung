@@ -8,7 +8,7 @@
     <title>{{ $title ?? 'Default Title' }}</title>
 </head>
 
-<body class="h-full">
+<body class="h-full ">
     <div class="min-h-full">
         <nav class="bg-gray-800 dark:bg-gray-800/50">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -25,12 +25,22 @@
                                     <a href="#"
                                         class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Arbeitszeiterfassung</a>
                                 @endif
-                                <a href="#"
-                                    class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Projects</a>
-                                <a href="#"
-                                    class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Calendar</a>
-                                <a href="#"
-                                    class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Reports</a>
+
+                                @if ($title == 'Neue Zeiterfassung')
+                                    <a href="#"
+                                        class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white dark:bg-gray-950/50">Neue Zeiterfassung</a>
+                                @else
+                                    <a href="#"
+                                        class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Neue Zeiterfassung</a>
+                                @endif
+
+                                @if ($title == 'Statistiken')
+                                    <a href="#"
+                                        class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white dark:bg-gray-950/50">Statistiken</a>
+                                @else
+                                    <a href="#"
+                                        class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Statistiken</a>
+                                @endif
                             </div>
                         </div>
                     </div>
