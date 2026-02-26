@@ -3,10 +3,11 @@
 namespace App\Livewire;
 
 use App\Models\Zeiterfassung as Zeiterfassung_Model;
+use Livewire\Attributes\Title;
 use Illuminate\Support\Facades\DB;
 use Livewire\Component;
 
-class Zeiterfassung extends Component
+#[Title('Arbeitszeiterfassung')] class Zeiterfassung extends Component
 {
     public $columns;
 
