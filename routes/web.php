@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\NeueZeiterfassung;
 use App\Livewire\Zeiterfassung;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +20,4 @@ Route::get('/', function () {
 });
 
 Route::get('/Arbeitszeiterfassung', Zeiterfassung::class)->name('zeiterfassung');
+Route::get('/Neue-Zeiterfassung', NeueZeiterfassung::class)->name('neue-zeiterfassung');

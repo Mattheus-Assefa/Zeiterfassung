@@ -19,18 +19,18 @@
                                 <a href="{{ URL('/') }}" aria-current="page"
                                     class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Dashboard</a>
                                 @if ($title == 'Arbeitszeiterfassung')
-                                    <a href="#"
+                                    <a href="{{ URL('/Arbeitszeiterfassung') }}"
                                         class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white dark:bg-gray-950/50">Arbeitszeiterfassung</a>
                                 @else
-                                    <a href="#"
+                                    <a href="{{ URL('/Arbeitszeiterfassung') }}"
                                         class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Arbeitszeiterfassung</a>
                                 @endif
 
                                 @if ($title == 'Neue Zeiterfassung')
-                                    <a href="#"
+                                    <a href="{{ URL('/Neue-Zeiterfassung') }}"
                                         class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white dark:bg-gray-950/50">Neue Zeiterfassung</a>
                                 @else
-                                    <a href="#"
+                                    <a href="{{ URL('/Neue-Zeiterfassung') }}"
                                         class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Neue Zeiterfassung</a>
                                 @endif
 
@@ -51,7 +51,7 @@
         <header
             class="relative bg-white shadow-sm dark:bg-gray-800 dark:shadow-none dark:after:pointer-events-none dark:after:absolute dark:after:inset-x-0 dark:after:inset-y-0 dark:after:border-y dark:after:border-white/10">
             <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-                <h1 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">{{ $title }}</h1>
+                <h1 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">{{ Str::replace("-", " ", $title)}}</h1>
             </div>
         </header>
         <main>

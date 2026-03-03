@@ -22,7 +22,7 @@
                                     class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white dark:bg-gray-950/50">Dashboard</a>
                                 <a href="{{ URL('/Arbeitszeiterfassung') }}" wire:navigate
                                     class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Arbeitszeiterfassung</a>
-                                <a href="#"
+                                <a href="{{ URL('/Neue-Zeiterfassung') }}"
                                     class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Neue Zeiterfassung</a>
                                 <a href="#"
                                     class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Statistiken</a>

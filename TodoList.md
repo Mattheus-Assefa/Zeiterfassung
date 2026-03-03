@@ -6,7 +6,7 @@ Der Benutzer soll zwischen folgenden drei Kategorien unterscheiden können:
 - [x] Urlaub
 - [x] Krankenstand
 ### 1.2 Erfassung von Arbeitstagen:  
-Bei der Erfassung von Arbietstagen sind folgende Daten zu erfassen:
+Bei der Erfassung von Arbeitstagen sind folgende Daten zu erfassen:
 - [x] Datum des Arbeitstages
 - [x] Arbeitsbeginn (Startzeit)
 - [x] Arbeitsende (Endzeit)
