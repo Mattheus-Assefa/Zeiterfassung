@@ -17,7 +17,7 @@ Bei der Erfassung von Arbietstagen sind folgende Daten zu erfassen:
 ### 1.3 Erfassung von Urlaub und Krankenstand:
 - [x] Datum 
 - [x] Kategorie (Urlaub oder Krankenstand)
-- [x] Optional: Bemerkung/Notiz
+- [ ] Optional: Bemerkung/Notiz
 ## 2 Übersicht und Filterung
 ### 2.1 Übersicht aller Einträge:
 - [x] Tabellarische Darstellung aller erfassten Zeiteinträge

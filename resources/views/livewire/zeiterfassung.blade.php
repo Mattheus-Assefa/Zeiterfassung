@@ -5,7 +5,7 @@
                 class="block w-full px-3 py-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs text-white">
                 <option disabled selected value> -- select an option -- </option>
                 @foreach ($Names as $the_name)
-                    <option class="text-black ">
+                    <option class="text-white ">
                         {{ $the_name->Name }}
                     </option>
                 @endforeach
