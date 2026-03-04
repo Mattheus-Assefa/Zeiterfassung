@@ -17,7 +17,7 @@ Bei der Erfassung von Arbeitstagen sind folgende Daten zu erfassen:
 ### 1.3 Erfassung von Urlaub und Krankenstand:
 - [x] Datum 
 - [x] Kategorie (Urlaub oder Krankenstand)
-- [-] Optional: Bemerkung/Notiz
+- [x] Optional: Bemerkung/Notiz
 ## 2 Übersicht und Filterung
 ### 2.1 Übersicht aller Einträge:
 - [x] Tabellarische Darstellung aller erfassten Zeiteinträge
@@ -41,17 +41,17 @@ Kreisdiagramm zur Verteilung der Arbeitstage:
 ## 6 Benutzeroberfläche
 ### 6.1 Navigation:  
 Erstellen Sie eine übersichtliche Navigation mit folgenden Bereichen:
-- [ ] Dashboard/Übersicht
-- [ ] Neue Zeiterfassung
-- [ ] Alle Einträge
-- [ ] Statistiken
+- [x] Dashboard/Übersicht
+- [x] Neue Zeiterfassung
+- [x] Alle Einträge
+- [x] Statistiken
 ### 6.2 Formulare:  
 - [ ] Eingageformular für neue Zeiterfassungen mit serverseitiger Validierung
 - [ ] Suchformular für Filterung
 ### 6.3 Listen und Tabellen:  
-- [ ] Übersichtliche Darstellung der erfassten Daten
-- [ ] Sortierung nach Datum (neueste zuerst)
-- [ ] Paginierung bei vielen Einträgen (optional)
+- [x] Übersichtliche Darstellung der erfassten Daten
+- [x] Sortierung nach Datum (neueste zuerst)
+- [x] Paginierung bei vielen Einträgen (optional)
 ### Testdaten:  
 - [ ] Erstellen Sie Beispieldaten für verschiedene Monate
 - [ ] Mindestens 15 Einträge mit unterschiedlichen Kategorien
