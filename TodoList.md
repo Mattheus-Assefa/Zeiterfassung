@@ -46,7 +46,7 @@ Erstellen Sie eine übersichtliche Navigation mit folgenden Bereichen:
 - [x] Alle Einträge
 - [x] Statistiken
 ### 6.2 Formulare:  
-- [ ] Eingageformular für neue Zeiterfassungen mit serverseitiger Validierung
+- [x] Eingabeformular für neue Zeiterfassungen mit serverseitiger Validierung
 - [ ] Suchformular für Filterung
 ### 6.3 Listen und Tabellen:  
 - [x] Übersichtliche Darstellung der erfassten Daten
@@ -57,5 +57,5 @@ Erstellen Sie eine übersichtliche Navigation mit folgenden Bereichen:
 - [ ] Mindestens 15 Einträge mit unterschiedlichen Kategorien
 - [ ] Realistische Arbeitszeiten (7-9 Stunden pro Arbeitstag)
 ### Validierung:  
-- [ ] Serverseitge Validierung: Überprüfung aller Eingaben
-- [ ] Datumsprüfungen: Zukünftige Daten sollten nicht erlaubt sein
+- [x] Serverseitge Validierung: Überprüfung aller Eingaben
+- [x] Datumsprüfungen: Zukünftige Daten sollten nicht erlaubt sein
