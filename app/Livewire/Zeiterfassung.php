@@ -53,6 +53,7 @@ use Livewire\Component;
             'Arbeitszeit' => '08:00',
             'Soll_Arbeitszeit' => '08:00',
             'Ueberstunden_Minusstunden' => '00:00',
+            'Notiz' => '',
         ]);
 
         Zeiterfassung_Model::create([
@@ -65,6 +66,7 @@ use Livewire\Component;
             'Arbeitszeit' => '08:00',
             'Soll_Arbeitszeit' => '08:00',
             'Ueberstunden_Minusstunden' => '00:00',
+            'Notiz' => '',
         ]);
 
         $this->dispatch('refresh');

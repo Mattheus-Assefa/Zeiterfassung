@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('Arbeitszeit')->default('');
             $table->string('Soll_Arbeitszeit')->default('');
             $table->string('Ueberstunden_Minusstunden')->default('');
+            $table->string('Notiz')->default('');
         });
     }
 
