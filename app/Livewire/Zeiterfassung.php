@@ -23,10 +23,10 @@ use Livewire\Component;
 
     public function boot()
     {
-        $this->columns = ['Name', 'Datum', 'Kategorie', 'Arbeitszeit', 'Ueberstunden_Minusstunden'];
+        $this->columns = ['Name', 'Arbeitsbeginn', 'Arbeitsende', 'Datum', 'Kategorie', 'Arbeitszeit', 'Ueberstunden_Minusstunden'];
         $this->rows = DB::table('zeiterfassungs')
             ->select($this->columns)
-            ->orderBy('Datum', 'asc')
+            ->orderBy('Datum', 'desc')
             ->get();
 
         $this->get_names();
