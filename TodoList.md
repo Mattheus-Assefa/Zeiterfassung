@@ -47,7 +47,7 @@ Erstellen Sie eine übersichtliche Navigation mit folgenden Bereichen:
 - [x] Statistiken
 ### 6.2 Formulare:  
 - [x] Eingabeformular für neue Zeiterfassungen mit serverseitiger Validierung
-- [ ] Suchformular für Filterung
+- [x] Suchformular für Filterung
 ### 6.3 Listen und Tabellen:  
 - [x] Übersichtliche Darstellung der erfassten Daten
 - [x] Sortierung nach Datum (neueste zuerst)
