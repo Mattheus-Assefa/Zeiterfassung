@@ -24,9 +24,9 @@ Bei der Erfassung von Arbeitstagen sind folgende Daten zu erfassen:
 - [x] Anzeige von Datum, Kategorie, Arbeitszeit (bei Arbeitstagen), Überstunden/Minusstunden
 ### 2.2 Filterfunktionen:  
 Die Übersicht soll gefiltert werden können nach:
-- [ ] Kategorie: Arbeitstag, Urlaub, Krankenstand
-- [ ] Monat: Auswahl eines bestimmten Monats
-- [ ] Kombinierte Filter: z.B. alle Krankenstände im März
+- [x] Kategorie: Arbeitstag, Urlaub, Krankenstand
+- [x] Monat: Auswahl eines bestimmten Monats
+- [x] Kombinierte Filter: z.B. alle Krankenstände im März
 ## 3 Auswertungen und Statistiken
 ### 3.1 Saldo-Anzeige:
 - [ ] Gesamtsaldo der Plus-/Minusstunden
